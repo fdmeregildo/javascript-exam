@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Felipe Meregildo - Brujula</title>
+<script type="text/javascript" src="js/jquery/jquery.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.mockjax.js"></script>
+<script type="text/javascript" src="js/jquery/jquery-ui/jquery-ui.js"></script>
+<script type="text/javascript" src="js/text-crud.js"></script>
+
+<link rel="stylesheet" href="js/jquery/jquery-ui/jquery-ui.css">
+<link rel="stylesheet" href="js/text-crud.css">
+
+</head>
+
+<body>	
+<h1 class="">Felipe Meregildo</h1>
+<h4>Javascript Exam</h4>
+<br/>
+
+<p id="resumen">
+	<span>Has seleccionado:</span> <span id="select-result"></span>
+</p>
+
+<div id="global">
+	<div id="content">
+		<ol id="text-crud"> 
+		</ol>
+	</div>
+	
+	<div id="content-buttons">
+		<button id="addbtn">+</button>	
+		<button id="removebtn">-</button>
+	</div>
+	
+	<button id="deshacerbtn">Deshacer</button>	
+</div>	
+
+<div id="addTextoDialog" title="Add Texto">
+	<label>Texto (*): </label>
+	<input id="texto" type="text" value="" maxlength="17" size="17">
+	<span class="error">Este campo es requerido</span>
+</div>
+	
+</body>
+</html>

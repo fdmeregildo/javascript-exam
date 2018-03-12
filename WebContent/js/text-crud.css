@@ -1,0 +1,81 @@
+body{
+	font: 80% "Arial", sans-serif;
+	margin: 50px;
+}
+
+#global {
+	display: inline-flex; 
+	width: 400px
+}
+
+#content {
+	height: 250px;
+	width: 160px;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	overflow-y: scroll;
+}
+
+#text-crud {
+	height: auto;
+	background:#fff;
+}
+
+#content-buttons {
+	width: 100px;
+}
+
+#content-buttons button{
+	width: 60px;
+	margin-left: 20px;
+	margin-bottom: 5px;		
+}
+
+#deshacerbtn {
+	width: 100px;
+	height: 25px
+}
+
+h1, h2, h3, h4 {
+	font-weight: inherit;
+}
+
+
+#resumen { 
+	font-size: 14px; 
+}
+
+#text-crud .ui-selecting { 
+	background: #fce94f; 
+}
+
+#text-crud .ui-selected { 
+	background: #f39814; 
+	color: white; 
+}
+
+#text-crud { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0;  
+}
+
+#text-crud li { 
+ 	padding: 0.4em;  
+ 	font-size: 12px; 
+	height: 16px; 
+}
+
+#addTextoDialog{
+	padding-top: 15px;
+}
+
+.error{
+	display: none;
+	font-style: oblique;
+	color: red;
+	padding-left: 55px;
+}		
+
+
+ 
